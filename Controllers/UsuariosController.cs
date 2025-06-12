@@ -15,7 +15,7 @@ namespace RpgMvc.Controllers
     [Route("[controller]")]
     public class UsuariosController : Controller
     {
-        public string uriBase = "http://guiirapha.somee.com/rpgapi/usuarios";
+        public string uriBase = "http://luizsilva.somee.com/rpgapi/usuarios/";
 
         private readonly ILogger<UsuariosController> _logger;
 
