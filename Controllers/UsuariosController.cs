@@ -29,7 +29,7 @@ namespace RpgMvc.Controllers
             return View();
         }
 
-        [HttpGet]
+        [HttpGet("IndexLogin")]
         public IActionResult IndexLogin()
         {
             return View("AutenticarUsuario");
